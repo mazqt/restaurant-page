@@ -1,3 +1,3 @@
-import firstPage from "./page-load.js"
+import {firstPage, menuPage, contactPage} from "./page-load.js"
 
-firstPage();
+contactPage();
