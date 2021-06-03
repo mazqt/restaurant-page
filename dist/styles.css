@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Schramsberg_Vineyards%2C_July_2019-7579%2B7580.jpg/1200px-Schramsberg_Vineyards%2C_July_2019-7579%2B7580.jpg");
+  background-size: cover;
+}
+
+#content {
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 40%;
+  border-radius: 10px;
+  background-image: url("https://image.freepik.com/free-vector/yellow-swiss-cheese-with-holes-seamless-background_135176-170.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hours {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
