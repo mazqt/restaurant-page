@@ -4,6 +4,8 @@ header.innerText = "Cheazy's Cheaze and Wine";
 const subheader = document.createElement("h3");
 
 const firstPage = function() {
+  content.innerHTML = ""
+
   subheader.innerText = "The best wine bar in all of Trelleborg";
   const description = document.createElement("p");
   description.innerText = "After years of begging for a piece of Cheddar, or sometimes even a sad chunk of Gouda, Cheazy got fed up with his owner and decided to give the restaurant business a try. Thus was born Cheaze and Wine, the finest wine bar in Southern Sweden."
@@ -46,6 +48,8 @@ const firstPage = function() {
 }
 
 const menuPage = function() {
+  content.innerHTML = ""
+
   subheader.innerText = "Our menus";
   const cheeseDesc = document.createElement("p");
   cheeseDesc.innerText = "A fine selection of cheeses, curated by our head chef Roquefort von Brie and approved by Cheazy himself";
@@ -58,7 +62,7 @@ const menuPage = function() {
     const blackPepper = document.createElement("li");
     blackPepper.innerText = "A deceptively simple but excellent choice, this parmesan-cheddar hybrid is called BellaVitano, and is rolled in cracked pepper to impart a heavy pungency that cuts through the cheese's assertive and full-bodied flavour.";
     const cheddar = document.createElement("li");
-    cheddar.innerText = "An absolute classic and behemoth of the cheese world, this cheddar is aged 18 months in the eponymous Cheedar Gorge. This is what gives it the characteristic sharpness and pungency.";
+    cheddar.innerText = "An absolute classic and behemoth of the cheese world, this cheddar is aged 18 months in the eponymous Cheddar Gorge. This is what gives it the characteristic sharpness and pungency.";
 
     cheeseList.appendChild(brie);
     cheeseList.appendChild(smokedGruyere);
@@ -89,6 +93,8 @@ const menuPage = function() {
 }
 
 const contactPage = function() {
+  content.innerHTML = ""
+
   subheader.innerText = "Contact us:"
 
   const cheazy = document.createElement("div");
