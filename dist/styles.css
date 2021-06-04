@@ -1,7 +1,43 @@
 body {
   margin: 0;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Schramsberg_Vineyards%2C_July_2019-7579%2B7580.jpg/1200px-Schramsberg_Vineyards%2C_July_2019-7579%2B7580.jpg");
+  background-image: url("https://images.westend61.de/0000733155pw/wine-barrels-in-wine-cellar-ZEF009083.jpg");
+  background-size: 100% 100%;
+}
+
+.paperborder {
+  background-image: url("https://static5.depositphotos.com/1037178/521/i/950/depositphotos_5212302-stock-photo-old-paper.jpg");
+  background-size: contain;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1vw;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  width: 70%;
+  margin-bottom: 5px;
+}
+
+.menuimage {
+  height: 8vw;
+  width: 8vw;
   background-size: cover;
+  border-radius: 2vw;
+  border-style: solid;
+  border-color: black;
+}
+
+.menutext {
+  width: 20vw;
+}
+
+.menuitem {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 5px;
 }
 
 .currentbutton {
