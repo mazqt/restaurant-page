@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  background-image: url("https://images.westend61.de/0000733155pw/wine-barrels-in-wine-cellar-ZEF009083.jpg");
+  background-size: 100% 100%;
+}
+
+.paperborder {
+  background-image: url("https://static5.depositphotos.com/1037178/521/i/950/depositphotos_5212302-stock-photo-old-paper.jpg");
+  background-size: contain;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 1vw;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  width: 70%;
+  margin-bottom: 5px;
+}
+
+.menuimage {
+  height: 8vw;
+  width: 8vw;
+  background-size: cover;
+  border-radius: 2vw;
+  border-style: solid;
+  border-color: black;
+}
+
+.menutext {
+  width: 20vw;
+}
+
+.menuitem {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  padding: 5px;
+}
+
+.currentbutton {
+  display: none;
+}
+
+.footer {
+  margin: 0;
+}
+
+footer {
+  height: 2vw;
+  display: flex;
+  padding-top: 5px;
+  justify-content: space-evenly;
+  background-image: url("https://image.freepik.com/free-vector/yellow-swiss-cheese-with-holes-seamless-background_135176-170.jpg");
+  margin-bottom: 0;
+}
+
+.tab {
+  margin: 1vw;
+  width: 7vw;
+  height: 3vw;
+}
+
+#tabs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://image.freepik.com/free-vector/yellow-swiss-cheese-with-holes-seamless-background_135176-170.jpg  ");
+
+}
+
+#content {
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  width: 40%;
+  border-radius: 10px;
+  background-image: url("https://image.freepik.com/free-vector/yellow-swiss-cheese-with-holes-seamless-background_135176-170.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hours {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
